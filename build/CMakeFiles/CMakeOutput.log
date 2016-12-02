@@ -1,0 +1,147 @@
+The system is: Linux - 2.6.32-5-amd64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/mpich3/3.1.2-thread-multiple/bin/mpicxx 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/3.0.0/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTryCompileExec4074947096/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTryCompileExec4074947096.dir/build.make CMakeFiles/cmTryCompileExec4074947096.dir/build
+gmake[1]: Entering directory `/lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp'
+/usr/local/cmake/3.0.0/bin/cmake -E cmake_progress_report /lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4074947096.dir/testCXXCompiler.cxx.o
+/usr/local/mpich3/3.1.2-thread-multiple/bin/mpicxx     -o CMakeFiles/cmTryCompileExec4074947096.dir/testCXXCompiler.cxx.o -c /lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4074947096
+/usr/local/cmake/3.0.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4074947096.dir/link.txt --verbose=1
+/usr/local/mpich3/3.1.2-thread-multiple/bin/mpicxx        CMakeFiles/cmTryCompileExec4074947096.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4074947096 -rdynamic 
+gmake[1]: Leaving directory `/lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTryCompileExec3136743226/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTryCompileExec3136743226.dir/build.make CMakeFiles/cmTryCompileExec3136743226.dir/build
+gmake[1]: Entering directory `/lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp'
+/usr/local/cmake/3.0.0/bin/cmake -E cmake_progress_report /lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3136743226.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/mpich3/3.1.2-thread-multiple/bin/mpicxx     -o CMakeFiles/cmTryCompileExec3136743226.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake/3.0.0/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3136743226
+/usr/local/cmake/3.0.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3136743226.dir/link.txt --verbose=1
+/usr/local/mpich3/3.1.2-thread-multiple/bin/mpicxx      -v CMakeFiles/cmTryCompileExec3136743226.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3136743226 -rdynamic  
+mpicxx for MPICH version 3.1.2
+Using built-in specs.
+COLLECT_GCC=g++
+COLLECT_LTO_WRAPPER=/usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/4.9.2/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../gcc-4.9.2/configure --enable-languages=c,c++,fortran --with-system-zlib --disable-multilib --enable-threads=posix --with-tune=generic --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/usr/local/gcc/4.9.2 --with-gmp=/usr/local/gcc/4.9.2 --with-mpfr=/usr/local/gcc/4.9.2 --with-mpc=/usr/local/gcc/4.9.2 --disable-bootstrap
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/4.9.2/:/usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/4.9.2/:/usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/:/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/:/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/:/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/intel/11.1/069/lib/intel64/:/usr/local/intel/11.1/069/ipp/em64t/lib/:/usr/local/intel/11.1/069/mkl/lib/em64t/:/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib/:/usr/local/intel/11.1/069/lib/intel64/:/usr/local/intel/11.1/069/ipp/em64t/lib/:/usr/local/intel/11.1/069/mkl/lib/em64t/:/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib/:/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3136743226' '-rdynamic' '-I' '/usr/local/mpich3/3.1.2-thread-multiple/include' '-L/usr/local/mpich3/3.1.2-thread-multiple/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/4.9.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3136743226 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/crtbegin.o -L/usr/local/mpich3/3.1.2-thread-multiple/lib -L/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2 -L/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/intel/11.1/069/lib/intel64 -L/usr/local/intel/11.1/069/ipp/em64t/lib -L/usr/local/intel/11.1/069/mkl/lib/em64t -L/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib -L/usr/local/intel/11.1/069/lib/intel64 -L/usr/local/intel/11.1/069/ipp/em64t/lib -L/usr/local/intel/11.1/069/mkl/lib/em64t -L/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib -L/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec3136743226.dir/CMakeCXXCompilerABI.cpp.o -lmpicxx -rpath /usr/local/mpich3/3.1.2-thread-multiple/lib --enable-new-dtags -lmpi -lrt -lpthread -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTryCompileExec3136743226/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTryCompileExec3136743226.dir/build.make CMakeFiles/cmTryCompileExec3136743226.dir/build]
+  ignore line: [gmake[1]: Entering directory `/lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/local/cmake/3.0.0/bin/cmake -E cmake_progress_report /lore/liz13/liz13/AlbanyTest/DislocationDynamics/coupled-dd/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3136743226.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/mpich3/3.1.2-thread-multiple/bin/mpicxx     -o CMakeFiles/cmTryCompileExec3136743226.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake/3.0.0/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3136743226]
+  ignore line: [/usr/local/cmake/3.0.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3136743226.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/mpich3/3.1.2-thread-multiple/bin/mpicxx      -v CMakeFiles/cmTryCompileExec3136743226.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3136743226 -rdynamic  ]
+  ignore line: [mpicxx for MPICH version 3.1.2]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/4.9.2/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../gcc-4.9.2/configure --enable-languages=c,c++,fortran --with-system-zlib --disable-multilib --enable-threads=posix --with-tune=generic --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/usr/local/gcc/4.9.2 --with-gmp=/usr/local/gcc/4.9.2 --with-mpfr=/usr/local/gcc/4.9.2 --with-mpc=/usr/local/gcc/4.9.2 --disable-bootstrap]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/4.9.2/:/usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/4.9.2/:/usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/:/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/:/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/:/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/intel/11.1/069/lib/intel64/:/usr/local/intel/11.1/069/ipp/em64t/lib/:/usr/local/intel/11.1/069/mkl/lib/em64t/:/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib/:/usr/local/intel/11.1/069/lib/intel64/:/usr/local/intel/11.1/069/ipp/em64t/lib/:/usr/local/intel/11.1/069/mkl/lib/em64t/:/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib/:/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3136743226' '-rdynamic' '-I' '/usr/local/mpich3/3.1.2-thread-multiple/include' '-L/usr/local/mpich3/3.1.2-thread-multiple/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/4.9.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3136743226 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/crtbegin.o -L/usr/local/mpich3/3.1.2-thread-multiple/lib -L/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2 -L/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/intel/11.1/069/lib/intel64 -L/usr/local/intel/11.1/069/ipp/em64t/lib -L/usr/local/intel/11.1/069/mkl/lib/em64t -L/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib -L/usr/local/intel/11.1/069/lib/intel64 -L/usr/local/intel/11.1/069/ipp/em64t/lib -L/usr/local/intel/11.1/069/mkl/lib/em64t -L/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib -L/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec3136743226.dir/CMakeCXXCompilerABI.cpp.o -lmpicxx -rpath /usr/local/mpich3/3.1.2-thread-multiple/lib --enable-new-dtags -lmpi -lrt -lpthread -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/usr/local/gcc/4.9.2/libexec/gcc/x86_64-linux-gnu/4.9.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3136743226] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/crtbegin.o] ==> ignore
+    arg [-L/usr/local/mpich3/3.1.2-thread-multiple/lib] ==> dir [/usr/local/mpich3/3.1.2-thread-multiple/lib]
+    arg [-L/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2] ==> dir [/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2]
+    arg [-L/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../../../lib64] ==> dir [/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/intel/11.1/069/lib/intel64] ==> dir [/usr/local/intel/11.1/069/lib/intel64]
+    arg [-L/usr/local/intel/11.1/069/ipp/em64t/lib] ==> dir [/usr/local/intel/11.1/069/ipp/em64t/lib]
+    arg [-L/usr/local/intel/11.1/069/mkl/lib/em64t] ==> dir [/usr/local/intel/11.1/069/mkl/lib/em64t]
+    arg [-L/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib] ==> dir [/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib]
+    arg [-L/usr/local/intel/11.1/069/lib/intel64] ==> dir [/usr/local/intel/11.1/069/lib/intel64]
+    arg [-L/usr/local/intel/11.1/069/ipp/em64t/lib] ==> dir [/usr/local/intel/11.1/069/ipp/em64t/lib]
+    arg [-L/usr/local/intel/11.1/069/mkl/lib/em64t] ==> dir [/usr/local/intel/11.1/069/mkl/lib/em64t]
+    arg [-L/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib] ==> dir [/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib]
+    arg [-L/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../..] ==> dir [/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec3136743226.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lmpicxx] ==> lib [mpicxx]
+    arg [-rpath] ==> ignore
+    arg [/usr/local/mpich3/3.1.2-thread-multiple/lib] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lrt] ==> lib [rt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/local/mpich3/3.1.2-thread-multiple/lib] ==> [/usr/local/mpich3/3.1.2-thread-multiple/lib]
+  collapse library dir [/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2] ==> [/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2]
+  collapse library dir [/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../../../lib64] ==> [/usr/local/gcc/4.9.2/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/intel/11.1/069/lib/intel64] ==> [/usr/local/intel/11.1/069/lib/intel64]
+  collapse library dir [/usr/local/intel/11.1/069/ipp/em64t/lib] ==> [/usr/local/intel/11.1/069/ipp/em64t/lib]
+  collapse library dir [/usr/local/intel/11.1/069/mkl/lib/em64t] ==> [/usr/local/intel/11.1/069/mkl/lib/em64t]
+  collapse library dir [/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib] ==> [/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib]
+  collapse library dir [/usr/local/intel/11.1/069/lib/intel64] ==> [/usr/local/intel/11.1/069/lib/intel64]
+  collapse library dir [/usr/local/intel/11.1/069/ipp/em64t/lib] ==> [/usr/local/intel/11.1/069/ipp/em64t/lib]
+  collapse library dir [/usr/local/intel/11.1/069/mkl/lib/em64t] ==> [/usr/local/intel/11.1/069/mkl/lib/em64t]
+  collapse library dir [/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib] ==> [/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib]
+  collapse library dir [/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2/../../..] ==> [/usr/local/gcc/4.9.2/lib]
+  implicit libs: [mpicxx;mpi;rt;pthread;stdc++;m;c]
+  implicit dirs: [/usr/local/mpich3/3.1.2-thread-multiple/lib;/usr/local/gcc/4.9.2/lib/gcc/x86_64-linux-gnu/4.9.2;/usr/local/gcc/4.9.2/lib64;/lib64;/usr/lib64;/usr/local/intel/11.1/069/lib/intel64;/usr/local/intel/11.1/069/ipp/em64t/lib;/usr/local/intel/11.1/069/mkl/lib/em64t;/usr/local/intel/11.1/069/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib;/usr/local/gcc/4.9.2/lib]
+  implicit fwks: []
+
+
